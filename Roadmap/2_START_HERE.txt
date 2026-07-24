@@ -1,0 +1,75 @@
+FULL STACK AGENTIC AI ENGINEERING ROADMAP - START HERE
+
+Welcome! You have a complete learning roadmap to land AI engineering roles 
+at Patsnap Singapore and similar companies. Everything is free.
+
+═══════════════════════════════════════════════════════════════════════════
+
+WHAT YOU RECEIVED:
+
+📄 AI_Engineering_Roadmap.pdf - Full 20-week curriculum
+📄 Quick_Start_30Day_Guide.pdf - Action plan for FIRST MONTH  
+📄 README.md - Navigation guide & checklists
+
+═══════════════════════════════════════════════════════════════════════════
+
+YOUR TIMELINE:
+
+Month 1: Python + First LLM Call → 3 live projects on Replit
+Month 2: Agentic AI + Advanced RAG → 2 advanced projects  
+Month 3: Polish + Mock Interviews → 5 production projects → Job offers
+
+═══════════════════════════════════════════════════════════════════════════
+
+QUICK START (NEXT 24 HOURS):
+
+Option A (30 min):
+  1. Open Quick_Start_30Day_Guide.pdf
+  2. Read Days 1-3
+  3. Create GitHub repo: nikhil-ai-engineering
+
+Option B (2 hours):
+  1. Read Quick_Start_30Day_Guide.pdf (full)
+  2. Set up Python venv
+  3. Make first API call
+  4. Deploy to Replit
+
+Option C (4 hours):
+  1. Read Quick_Start + README.md
+  2. Complete full Week 1 Python tasks
+  3. Deploy to Replit (live URL)
+
+═══════════════════════════════════════════════════════════════════════════
+
+READING ORDER:
+
+1st (TODAY - 30 min):    Quick_Start_30Day_Guide.pdf
+2nd (THIS WEEK - 90 min): AI_Engineering_Roadmap.pdf
+3rd (ONGOING):          README.md (bookmark it)
+
+═══════════════════════════════════════════════════════════════════════════
+
+KEY FACTS:
+
+✅ Everything is FREE
+✅ 20 Weeks = Interview Ready  
+✅ 5 Portfolio Projects
+✅ No Prerequisites Beyond Python Basics
+
+═══════════════════════════════════════════════════════════════════════════
+
+NEXT STEPS (RIGHT NOW):
+
+1. Create GitHub repo → nikhil-ai-engineering (PUBLIC)
+2. Download all files from this folder
+3. Open Quick_Start_30Day_Guide.pdf
+4. Read Days 1-3 (10 minutes)
+5. Tomorrow: Follow Day 1 task exactly
+
+═══════════════════════════════════════════════════════════════════════════
+
+Start tomorrow. It takes 1 hour. Then momentum takes over.
+
+Your future self at the interview will thank you for starting today.
+
+Let's go! 🚀
