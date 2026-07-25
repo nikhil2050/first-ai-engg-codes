@@ -42,7 +42,7 @@ This roadmap bypasses the Java-to-Python bridge entirely. It focuses on:
 | **OOP fundamentals** | [Real Python – Classes & Objects](https://realpython.com/python3-object-oriented-programming/) | 2 hrs | Code 3 classes from scratch |
 | **Async Python** | [Real Python – Async IO](https://realpython.com/async-io-python/) + [David Beazley talk](https://www.youtube.com/watch?v=MCs5OvIHa9I) | 3 hrs | Write async scraper (fetch 10 URLs concurrently) |
 | **Decorators** | [Real Python – Decorators](https://realpython.com/primer-on-python-decorators/) | 1.5 hrs | Build `@retry`, `@cache`, `@log_time` decorators |
-| **Comprehensions** | [Real Python – List Comprehensions](https://realpython.com/list-comprehensions-and-generator-expressions/) | 1 hr | Refactor loops → comprehensions |
+| **Comprehensions** | [Real Python – List Comprehensions - New](https://realpython.com/list-comprehension-python/)<br/>~~[Real Python – List Comprehensions](https://realpython.com/list-comprehensions-and-generator-expressions/)~~ | 1 hr | Refactor loops → comprehensions |
 | **Memory debugging** | [PySpy + Memory Profiler](https://docs.python.org/3/library/profile.html) | 2 hrs | Profile a slow script, find bottleneck |
 
 ### Week 1 Tasks
