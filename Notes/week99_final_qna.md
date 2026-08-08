@@ -1,5 +1,54 @@
 # RAG:
 
+## Basic
+
+### Q. What is re-ranking and why is it important? ✅
+
+**A**: Re-ranking means scoring document pairs (query, doc) to improve relevance.
+
+**Why it matters**:
+```
+Scenario: Query returns 10 documents
+- Initial retrieval: Fast but coarse (top-100)
+- Re-ranking: Slower but precise (top-10)
+
+Benefits:
+1. Improves relevance of top-k results
+2. Catch relevant docs missed by initial retrieval
+3. Better user experience
+4. Can use expensive but accurate models (cross-encoders)
+```
+
+**Implementation approaches**:
+```python
+# Approach 1: Simple fusion (fast)
+# Combine multiple rankings → Sort
+
+# Approach 2: Cross-encoder (accurate)
+# Pass (query, doc) pairs to specialized model
+# Returns relevance score
+# Slower but more accurate
+
+# Approach 3: LLM as judge (expensive)
+# Ask LLM to rate relevance
+# Very accurate but costly
+```
+
+**Interview tip**: "Re-ranking is a two-stage retrieval pattern: fast retrieval (recall) → accurate re-ranking (precision)."
+
+### Q: "Compare different re-ranking strategies"
+
+**A**: 
+
+| Strategy | Speed | Accuracy | Cost | When to Use |
+|----------|-------|----------|------|-------------|
+| **Fusion** | ⭐⭐⭐ | ⭐⭐ | Free | Fast API |
+| **Cross-Encoder** | ⭐⭐ | ⭐⭐⭐ | $$ | Production search |
+| **LLM Judge** | ⭐ | ⭐⭐⭐⭐ | $$$ | High value queries |
+
+**Recommendation**: Start with fusion, move to cross-encoder if metrics decline.
+
+---
 ## Debugging
 
 ### Q. What would you do if retrieval doesn't find the right documents? (Intermediate)
